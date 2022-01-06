@@ -9,7 +9,6 @@ function App() {
         <p>
           Welcome to Math-Magician Site!!!
         </p>
-        
       </header>
     </div>
   );

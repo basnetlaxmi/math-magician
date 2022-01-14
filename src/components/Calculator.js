@@ -32,7 +32,7 @@ export default class Calculator extends React.Component {
               %
             </button>
             <button type="button" className="button-column orange" onClick={this.handleClick}>
-              *
+              ÷
             </button>
           </div>
           <div className="button-row">

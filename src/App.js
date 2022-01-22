@@ -1,17 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable react/prefer-stateless-function */
+import React from 'react';
+import './index.css';
+import Calculator from './components/Calculator';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to Math-Magician Site!!!
-        </p>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Calculator />
+      </div>
+    );
+  }
 }
 
 export default App;

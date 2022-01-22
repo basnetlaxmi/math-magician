@@ -25,7 +25,7 @@ const Menu = () => {
       <nav>
         <div className="navbar">
           <h1>Math Magicians</h1>
-          <ul>
+          <ul className="navbar-items">
             {links.map((link) => (
               <li key={link.id}>
                 <NavLink

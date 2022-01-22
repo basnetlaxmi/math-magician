@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-items {
+    list-style: none;
+    display: flex;
+    
+}
+
+.navbar-items li{
+    margin-left: 20px;
+   
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.home h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.quotes-paragraph {
+    color: white;
+    font-size: 20px;
+}
